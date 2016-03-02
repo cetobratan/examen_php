@@ -1,108 +1,66 @@
 <?php 
 
+session_start();
 
-print_r(getProductos(1));
 
+$_id = $_GET['id'];
 
-funtion getProductos($id)
+if(isset($_SESSION['carrito']))
 {
-
-if ($id == 1):
-	return [
-				
-                 'nombre' => 'Zapatillas',
-                 'precio' => 200.00,
-                 'stock' => 2
-
-];
-
-
-       endif;
-
-if ($id== 2):
-	return [
-				'nombre' => 'Zapatillas',
-				'precio' =>  200.00,
-				'stock' => 2
-			
-
-
-];
-
-endif;
-
-if ($id == 3) :
-	return [
-				'nombre' => 'Polo',
-				'precio' => 80.00,
-				'stock' => 10,
-
-
-
-];
-	
-endif;	
-
-
-
-
-}
-
-$id = $_GET['id'];
-
-print_r(getProductos($id));
-
-funtion getProductos($id)
-{
-
-
-	
-if ($id == 1):
-	return [
-				
-                 'nombre' => 'Zapatillas',
-                 'precio' => 200.00,
-                 'stock' => 2
-
-];
-
-
-       endif;
-
-if ($id== 2):
-	return [
-				'nombre' => 'Zapatillas',
-				'precio' =>  200.00,
-				'stock' => 2
-			
-
-
-];
-
-endif;
-
-if ($id == 3) :
-	return [
-				'nombre' => 'Polo',
-				'precio' => 80.00,
-				'stock' => 10,
-
-
-
-];
-	
-endif;	
-
-
-
-
-
-
-
-
-
-
+    if(isset($_SESSION['carrito'][md5($_id)])){
+        
+        $_SESSION['carrito'][md5($_id)]['stock']+=1;
+    }else{
+       $_SESSION['carrito'][md5($_id)]= getProductos($_id); 
+    }
+    
+   
+}else{
+ $_SESSION['carrito'][md5($_id)]= getProductos($_id);   
 }
 
 
-?>
+
+echo "<pre>";
+
+print_r ($_SESSION);
+
+
+
+function getProductos($id)
+{
+    if($id == 1)
+    {
+        return[
+                'id'     => 1,
+                'nombre' => 'polo',
+                'precio' => 25.00,
+                'stock'  => 25
+              ];
+     }
+    
+      if($id==2)
+      {
+        return[
+                'id'     => 2,
+                'nombre' => 'Iphone',
+                'precio' => 300.00,
+                'stock'  => 50
+              ];
+      }
+    
+       if($id==3)
+      {
+        return[
+                'id'     => 3,
+                'nombre' => 'Casaca',
+                'precio' => 80.00,
+                'stock'  => 10
+              ];
+      }    
+    return FALSE;
+    
+    
+}
+
+ ?>
