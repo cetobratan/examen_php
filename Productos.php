@@ -24,7 +24,7 @@ echo "<pre>";
 
 print_r ($_EXAMENFINAL);
 
-//print_r(getProductos($_id));
+
 
 function getProductos($id)
 {

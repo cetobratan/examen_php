@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<title>EXAMEN FINAL</title>
 	<link rel="stylesheet" href="">
 </head>
 <body>
@@ -24,7 +24,7 @@
 			<tr>
 				<td>1</td>
 				<td>Zapatillas</td>
-				<img src="img/converse.jpg" alt="Obra de K. Haring">
+				<td><IMG SRC="converse.jpg" WIDTH=30 HEIGHT=30 ALT="Obra de K. Haring"></td>
 				<td>Converse Chuck Taylor Black White High Top Canvas New in Box Sizes 3 5 to 12 </td>
 				<td>200.00</td>
 				<td>25</td>
@@ -33,7 +33,7 @@
 			<tr>
 				<td>2</td>
 				<td>Pelotas</td>
-				<img src="img/adidasball.jpg" alt="Obra de K. Haring">
+				<td><img src="img/adidasball.jpg" WIDTH=30 HEIGHT=30 alt="Obra de K. Haring"></td>
 				<td>Very Rare Germany/Italy Teamgeist Ball</td>
 				<td>160.00</td>
 				<td>50</td>
@@ -43,7 +43,7 @@
 
 			<td>3</td>	
 			<td>Polo</td>
-			<td><img src="img/devilconverse.jpg" alt="Obra de K. Haring"></td>
+			<td><img src="img/devilconverse.jpg" WIDTH=30 HEIGHT=30 alt="Obra de K. Haring"></td>
 			<td>Van Halen Men's B&w Winged Devil T-shirt Black
 			</td>
 			<td>99.00</td>
