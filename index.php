@@ -24,7 +24,7 @@
 			<tr>
 				<td>1</td>
 				<td>Zapatillas</td>
-				<td><IMG SRC="converse.jpg" WIDTH=30 HEIGHT=30 ALT="Obra de K. Haring"></td>
+				<td><IMG SRC="img/converse.jpg" WIDTH=30 HEIGHT=30 ALT="Obra de K. Haring"></td>
 				<td>Converse Chuck Taylor Black White High Top Canvas New in Box Sizes 3 5 to 12 </td>
 				<td>200.00</td>
 				<td>25</td>
