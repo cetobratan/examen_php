@@ -11,7 +11,7 @@
 		
 		<thead>
 			<tr>
-				<th>#</th>
+				<th>id</th>
 				<th>Nombre</th>
 				<th>Foto</th>
 				<th>descripcion</th>
