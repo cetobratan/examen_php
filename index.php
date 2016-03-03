@@ -28,7 +28,7 @@
 				<td>Converse Chuck Taylor Black White High Top Canvas New in Box Sizes 3 5 to 12 </td>
 				<td>200.00</td>
 				<td>25</td>
-				<td><a href="Productos.php.php?id=1">AGREGAR</a></td>
+				<td><a href="Productos.php?id=1">AGREGAR</a></td>
 			</tr>
 			<tr>
 				<td>2</td>
@@ -37,7 +37,7 @@
 				<td>Very Rare Germany/Italy Teamgeist Ball</td>
 				<td>160.00</td>
 				<td>50</td>
-				<td><a href="Productos.php.php?id=2">AGREGAR</a></td>
+				<td><a href="Productos.php?id=2">AGREGAR</a></td>
 			</tr>
 			<tr>
 
@@ -48,7 +48,7 @@
 			</td>
 			<td>99.00</td>
 			<td>10</td>	
-			<td><a href="Productos.php.php?id=3">AGREGAR</a></td>
+			<td><a href="Productos.php?id=3">AGREGAR</a></td>
 
 
 			</tr>
